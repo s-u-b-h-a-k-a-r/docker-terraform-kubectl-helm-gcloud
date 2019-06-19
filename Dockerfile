@@ -41,7 +41,7 @@ RUN wget -q https://storage.googleapis.com/kubernetes-release/release/${KUBE_LAT
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
 
-ENV HELM_VERSION="v2.14.1"
+ENV HELM_VERSION="v2.13.1"
 
 RUN wget -q https://storage.googleapis.com/kubernetes-helm/helm-${HELM_VERSION}-linux-amd64.tar.gz -O - | tar -xzO linux-amd64/helm > /usr/local/bin/helm \
     && chmod +x /usr/local/bin/helm

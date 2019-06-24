@@ -10,6 +10,8 @@
 
 Supported tags and release links
 
+* [0.12.2-v1.14.3-v2.13.1-250.0.0](https://github.com/subhakarkotta/docker-terraform-kubectl-helm-gcloud/releases/tag/0.12.2-v1.14.3-v2.13.1-250.0.0) - terraform 0.12.2 , kubectl v1.14.3 , helm v2.13.1, gcloud 250.0.0
+
 * [0.11.14-v1.14.3-v2.13.1-250.0.0](https://github.com/subhakarkotta/docker-terraform-kubectl-helm-gcloud/releases/tag/0.11.14-v1.14.3-v2.13.1-250.0.0) - terraform 0.11.14 , kubectl v1.14.3 , helm v2.13.1, gcloud 250.0.0
 
 

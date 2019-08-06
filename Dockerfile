@@ -19,7 +19,7 @@ RUN apt-get install curl jq python bash ca-certificates git openssl unzip wget -
 # Note: Latest version of terraform may be found at:
 # https://releases.hashicorp.com/terraform/
 
-ENV TERRAFORM_VERSION="0.12.2"
+ENV TERRAFORM_VERSION="0.12.5"
 
 RUN cd /tmp && \
     wget https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \
